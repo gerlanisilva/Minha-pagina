@@ -1,0 +1,176 @@
+
+.conteiner{ 
+    width: 0 auto;
+    margin: 0 auto;
+}
+
+/*cabeçalho*/
+
+header{ 
+    background-image: url(https://www.fundoswiki.com/Uploads/fundoswiki.com/ImagensGrandes/espaco-sideral-colorido.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position-x:80% ;
+    background-position-y: 40%;
+    height: 200px;
+    width:100%;
+    border: 2px solid black;
+    border-radius: 8px
+}
+
+
+
+h1{ 
+    padding: 10px;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-right: 0;
+    position: relative;
+    left: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(115, 116, 117);
+    text-shadow: 2px 2px rgb(21, 21, 22);
+    margin-bottom:0px;
+    margin-right: 0px;
+}
+.navegação{
+    list-style-type:none;
+    overflow: hidden;
+    background-color: rgb(75, 76, 77);
+    opacity: 0.5;
+    margin-right: 16px;
+   
+}
+.nav{
+    float:left;
+    display:inline;
+}
+.nav a{ 
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;  
+
+}
+.nav a:hover{
+    background-color: #111111;
+}
+.foto1{position:relative;
+    right: 10px;
+    bottom: 90px;
+   border:10px solid rgba(75, 76, 77, 0.5) ;
+   border-bottom:30px solid rgb(75, 76, 77, 0.5) ;
+    float:right; 
+    cursor: hand;
+    margin-left:30px;
+    margin-right:100px;
+    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.5);
+    border-radius: 50%;
+}
+.foto1:hover{ 
+    zoom:150%;
+}
+
+/*corpo*/
+
+body{
+    background-image: linear-gradient(0deg,rgb(44, 32, 44) ,rgb(13, 24, 36)  );
+}
+
+#sobremim{ 
+    background-color:black ;
+    background-image: linear-gradient(0deg, rgb(2, 54, 78),rgb(24, 32, 47)  );
+    min-height: 500px;
+    margin-bottom: 0px;
+}
+h3{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: white;
+   text-align: center;
+   font-size: 35px;
+   font-weight: 600 ;
+}
+
+.foto2{
+position: relative;
+top: 15px;
+left: 300px;
+margin-left: 30px;    
+border:5px solid rgba(75, 76, 77, 0.5) ;
+border-bottom:15px solid rgb(75, 76, 77, 0.5) ;
+border-radius: 50%
+}
+
+#curiosidades{
+    background-color:black ;
+    background-image: linear-gradient(0deg, rgb(95, 67, 95),rgb(2, 48, 70) );
+    min-height: 500px;
+}
+h6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600    
+}
+
+
+.texto1{
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.foto3{
+    position: relative;
+    top: 15px;
+    left: 450px;
+    margin-left: 30px;    
+    border:5px solid rgba(75, 76, 77, 0.5) ;
+    border-bottom:15px solid rgb(75, 76, 77, 0.5) ;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+/*roda pé*/
+
+footer{
+    background-image: url(https://www.fundoswiki.com/Uploads/fundoswiki.com/ImagensGrandes/espaco-sideral-colorido.jpg);
+    opacity: 0.5;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position-x:20% ;
+    background-position-y: 60%;
+    width: 100%;
+    min-height:100px;
+    margin:auto;
+}
+a:-webkit-any-link{
+cursor: heder
+} 
+.contatos{ 
+    position: relative;
+    left: 100px;
+   margin-left: 15px;
+
+}
+
+h2{ margin-top: 30px;
+    top:30px;
+    left: 550px;
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
